@@ -1,0 +1,86 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  
+}
+
+.section2 {
+  width: 100%;
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 800;
+  margin: 0 1rem 1rem 1rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__email,
+.form__username,
+.form__password {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+.form__email--label,
+.form__username--label,
+.form__password--label {
+  font-weight: 800;
+}
+
+.form__email--input,
+.form__username--input,
+.form__password--input {
+  height: 2rem;
+  padding: .05rem 0 1rem 0;
+}
+
+.form__password--items {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: start;
+  
+}
+
+.form__signup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__signup--btn {
+  width: 12rem;
+  height: 2.5rem;
+  color: grey;
+}
+
+.form__signup--btnaccept {
+  position: relative;
+  left: 5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.accept {
+  margin-left: 100px;
+}
